@@ -20,9 +20,9 @@ This work was presented at **IEEE ICEACE 2023**. For more information, you can a
 
 The following hardware resources are utilized by the Runge-Kutta solvers, based on half-precision (16-bit) floating-point arithmetic:
 
-| Operation | FPU_Add | FPU_Sub | FPU_Mul | MAC Unit |
-|-----------|---------|---------|---------|----------|
-| **RK2**   | 5       | 5       | 5       | 10       |
+| FPU_Add | FPU_Sub | FPU_Mul | MAC Unit |
+|---------|---------|---------|----------|
+| 5       | 5       | 5       | 10       |
 
 ## ODE Solver Example
 
